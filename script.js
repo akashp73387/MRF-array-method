@@ -290,4 +290,24 @@ let nar3 = ar3.reduce((sum, i) => {
 console.log(nar3);
  
 
+/*--------------------FOR EACH -------------------------
 
+For-Each 
+=> to print the array elements
+=>It is apllicable only for arrays
+=> It takes function as a parameter
+=>It will apply on each and every element
+=> It is generally used for printing
+=>It returns undefined     */
+ 
+// without for-each
+
+var rra = [1,2,3,4,5]
+for(var i=0;i<rra.length;i++){
+    console.log(rra[i]);
+}
+
+//with for-each
+
+var rra1 = [100,200,300,400,500]
+rra1.forEach((ele)=>console.log(ele))
